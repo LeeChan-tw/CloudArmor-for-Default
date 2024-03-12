@@ -30,7 +30,7 @@ variable "rate_based_ban_rules" {
     default = {
         def_rule = {
             action                              = "rate_based_ban"
-            priority                            = "900"
+            priority                            = "4000"
             versioned_expr                      = "SRC_IPS_V1"
             src_ip_ranges                       = ["*"]
             description                         = "Ban source IP 5mins for request over 200 in 30secs"
