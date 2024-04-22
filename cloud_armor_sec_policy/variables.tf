@@ -24,7 +24,7 @@ variable "default_rules" {
 } 
 
 # --------------------------------- 
-# Throttling traffic rules
+# Rate-based ban rules
 # --------------------------------- 
 variable "rate_based_ban_rules" {
     default = {
